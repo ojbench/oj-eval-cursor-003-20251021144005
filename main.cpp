@@ -178,7 +178,7 @@ int main(){
                 } else if (is_ac(status)){
                     apply_solve(t, ps, time);
                 } else if (is_wrong(status)){
-                    ps.wwrong_before += 1;
+                    ps.wrong_before += 1;
                 }
             }
         } else if (cmd == "FLUSH"){
